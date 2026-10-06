@@ -4,7 +4,7 @@
 
 <p align="center"><sub>Last checked: 2026-10-05 (against each provider’s official docs)</sub></p>
 
-<p align="center"><a href="README.md">한국어</a> · <a href="README.en.md">English</a></p>
+<p align="center"><a href="README.md">한국어</a> · <a href="README.en.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
 ---
 
@@ -108,7 +108,7 @@ Install the program, download a model, then use the address below as an OpenAI-c
 | **SGLang** | Free, your own server | `http://127.0.0.1:30000/v1` | [Docs](https://docs.sglang.ai/) |
 
 ## Use several as one team
-Connect several of these and [MoaEditor](../../README.en.md) puts them into one team of a director, team leads, staff and interns and splits the work. When one hits its limit, the next picks up. “Connect free AIs” sets up Copilot, Cursor, Groq, OpenRouter and a local model one after another. Windows, free to use.
+Connect several of these and [MoaEditor](../../README.md) puts them into one team of a director, team leads, staff and interns and splits the work. When one hits its limit, the next picks up. “Connect free AIs” sets up Copilot, Cursor, Groq, OpenRouter and a local model one after another. Windows, free to use.
 
 ## Spot a mistake?
 If terms changed or something is missing, open an [issue](https://github.com/moaeditor/moaeditor/issues/new/choose) with a link to the official page. See [CONTRIBUTING.md](CONTRIBUTING.md).

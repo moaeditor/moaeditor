@@ -10,28 +10,32 @@
           "name": "GitHub Copilot",
           "terms": "Works with GitHub Copilot, including the free plan",
           "docs": "https://github.com/github/copilot-cli",
-          "terms_ko": "GitHub Copilot 구독으로 씁니다. 무료 요금제도 됩니다"
+          "terms_ko": "GitHub Copilot 구독으로 씁니다. 무료 요금제도 됩니다",
+          "terms_zh": "使用 GitHub Copilot 订阅，免费计划也可以"
         },
         {
           "id": "cursor",
           "name": "Cursor",
           "terms": "Works with a Cursor plan, including free Hobby",
           "docs": "https://cursor.com/docs/cli/installation",
-          "terms_ko": "Cursor 구독으로 씁니다. 무료 Hobby 요금제도 됩니다"
+          "terms_ko": "Cursor 구독으로 씁니다. 무료 Hobby 요금제도 됩니다",
+          "terms_zh": "使用 Cursor 订阅，免费的 Hobby 计划也可以"
         },
         {
           "id": "vibe",
           "name": "Mistral Vibe",
           "terms": "Works with a Mistral account, free too",
           "docs": "https://docs.mistral.ai/vibe/code/cli/install-setup",
-          "terms_ko": "Mistral 계정으로 씁니다. 무료로도 쓸 수 있습니다"
+          "terms_ko": "Mistral 계정으로 씁니다. 무료로도 쓸 수 있습니다",
+          "terms_zh": "使用 Mistral 账号，免费也能用"
         },
         {
           "id": "opencode",
           "name": "OpenCode",
           "terms": "Works with ChatGPT, paid Copilot, OpenCode Zen or Go, or an API key. Without signing in it uses OpenCode free models, which may use what you send to improve the model",
           "docs": "https://opencode.ai/docs",
-          "terms_ko": "ChatGPT 구독, 유료 Copilot 구독, OpenCode Zen이나 Go, API 키로 씁니다. 로그인하지 않으면 OpenCode 무료 모델로 돌아가는데, 이때 보낸 내용은 모델 개선에 쓰일 수 있습니다"
+          "terms_ko": "ChatGPT 구독, 유료 Copilot 구독, OpenCode Zen이나 Go, API 키로 씁니다. 로그인하지 않으면 OpenCode 무료 모델로 돌아가는데, 이때 보낸 내용은 모델 개선에 쓰일 수 있습니다",
+          "terms_zh": "可用 ChatGPT 订阅、付费 Copilot、OpenCode Zen 或 Go，或 API 密钥。不登录时使用 OpenCode 免费模型，发送的内容可能被用于改进模型"
         }
       ]
     },
@@ -46,7 +50,8 @@
           "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
           "keyUrl": "https://aistudio.google.com/apikey",
           "docs": "https://ai.google.dev/gemini-api/docs/openai",
-          "terms_ko": "Flash와 Flash-Lite는 무료입니다. 요청 수 제한이 있습니다"
+          "terms_ko": "Flash와 Flash-Lite는 무료입니다. 요청 수 제한이 있습니다",
+          "terms_zh": "Flash 和 Flash-Lite 免费，有请求次数限制"
         },
         {
           "id": "groq",
@@ -56,7 +61,8 @@
           "baseUrl": "https://api.groq.com/openai/v1",
           "keyUrl": "https://console.groq.com/keys",
           "docs": "https://console.groq.com/docs/openai",
-          "terms_ko": "무료로 분당 30회, 하루 1,000회쯤 씁니다. 모델마다 다릅니다"
+          "terms_ko": "무료로 분당 30회, 하루 1,000회쯤 씁니다. 모델마다 다릅니다",
+          "terms_zh": "免费，约每分钟 30 次、每天 1,000 次请求，因模型而异"
         },
         {
           "id": "openrouter",
@@ -66,7 +72,8 @@
           "baseUrl": "https://openrouter.ai/api/v1",
           "keyUrl": "https://openrouter.ai/settings/keys",
           "docs": "https://openrouter.ai/docs/api/reference/limits",
-          "terms_ko": ":free 모델은 분당 20회, 하루 50회. 10달러 이상 충전하면 하루 1,000회"
+          "terms_ko": ":free 모델은 분당 20회, 하루 50회. 10달러 이상 충전하면 하루 1,000회",
+          "terms_zh": ":free 模型每分钟 20 次、每天 50 次。充值 10 美元以上后每天 1,000 次"
         },
         {
           "id": "nvidia-nim",
@@ -76,7 +83,8 @@
           "baseUrl": "https://integrate.api.nvidia.com/v1",
           "keyUrl": "https://build.nvidia.com/settings/api-keys",
           "docs": "https://build.nvidia.com/",
-          "terms_ko": "개발과 테스트용으로 분당 40회쯤 무료"
+          "terms_ko": "개발과 테스트용으로 분당 40회쯤 무료",
+          "terms_zh": "免费，约每分钟 40 次请求，用于开发和测试"
         },
         {
           "id": "mistral",
@@ -86,7 +94,8 @@
           "baseUrl": "https://api.mistral.ai/v1",
           "keyUrl": "https://console.mistral.ai/api-keys",
           "docs": "https://docs.mistral.ai/api/",
-          "terms_ko": "무료 플랜에 매달 크레딧이 들어 있습니다"
+          "terms_ko": "무료 플랜에 매달 크레딧이 들어 있습니다",
+          "terms_zh": "免费计划包含每月额度"
         },
         {
           "id": "huggingface",
@@ -96,7 +105,8 @@
           "baseUrl": "https://router.huggingface.co/v1",
           "keyUrl": "https://huggingface.co/settings/tokens/new?ownUserPermissions=inference.serverless.write&tokenType=fineGrained",
           "docs": "https://huggingface.co/docs/inference-providers/index",
-          "terms_ko": "Free는 매달 0.10달러, PRO는 2달러 크레딧"
+          "terms_ko": "Free는 매달 0.10달러, PRO는 2달러 크레딧",
+          "terms_zh": "免费用户每月 0.10 美元额度，PRO 用户 2 美元"
         },
         {
           "id": "sambanova",
@@ -106,7 +116,8 @@
           "baseUrl": "https://api.sambanova.ai/v1",
           "keyUrl": "https://cloud.sambanova.ai/apis",
           "docs": "https://docs.sambanova.ai/docs/en/get-started/api-keys-urls",
-          "terms_ko": "무료로 분당 20회, 하루 20회까지"
+          "terms_ko": "무료로 분당 20회, 하루 20회까지",
+          "terms_zh": "免费，最多每分钟 20 次、每天 20 次请求"
         },
         {
           "id": "zai",
@@ -116,7 +127,8 @@
           "baseUrl": "https://api.z.ai/api/paas/v4",
           "keyUrl": "https://z.ai/manage-apikey/apikey-list",
           "docs": "https://docs.z.ai/guides/develop/http/introduction",
-          "terms_ko": "일부 Flash 모델은 무료"
+          "terms_ko": "일부 Flash 모델은 무료",
+          "terms_zh": "部分 Flash 模型免费"
         },
         {
           "id": "cohere",
@@ -126,7 +138,8 @@
           "baseUrl": "https://api.cohere.ai/compatibility/v1",
           "keyUrl": "https://dashboard.cohere.com/api-keys",
           "docs": "https://docs.cohere.com/docs/compatibility-api",
-          "terms_ko": "Trial 키는 한 달 1,000회, 분당 20회까지"
+          "terms_ko": "Trial 키는 한 달 1,000회, 분당 20회까지",
+          "terms_zh": "试用密钥：每月最多 1,000 次调用，每分钟 20 次"
         },
         {
           "id": "ollama-cloud",
@@ -136,7 +149,8 @@
           "baseUrl": "https://ollama.com/v1",
           "keyUrl": "https://ollama.com/settings/keys",
           "docs": "https://docs.ollama.com/api/openai-compatibility",
-          "terms_ko": "무료 플랜에 시작 크레딧이 있습니다. 일부 모델만, 한 번에 요청 하나씩 씁니다"
+          "terms_ko": "무료 플랜에 시작 크레딧이 있습니다. 일부 모델만, 한 번에 요청 하나씩 씁니다",
+          "terms_zh": "免费计划有入门额度。仅限部分模型，一次只处理一个请求"
         },
         {
           "id": "vercel-ai-gateway",
@@ -146,7 +160,8 @@
           "baseUrl": "https://ai-gateway.vercel.sh/v1",
           "keyUrl": "https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai-gateway%2Fapi-keys&title=AI+Gateway+API+Keys",
           "docs": "https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions",
-          "terms_ko": "팀마다 매달 5달러 크레딧. 한 번 결제하면 끝납니다"
+          "terms_ko": "팀마다 매달 5달러 크레딧. 한 번 결제하면 끝납니다",
+          "terms_zh": "每个团队每月 5 美元额度，首次付款后结束"
         },
         {
           "id": "freellmapi",
@@ -155,7 +170,8 @@
           "dataUse": "free-tier-may-train",
           "baseUrl": "http://127.0.0.1:3001/v1",
           "docs": "https://github.com/tashfeenahmed/freellmapi",
-          "terms_ko": "중계기는 무료입니다. 한도는 등록한 제공사마다 다릅니다"
+          "terms_ko": "중계기는 무료입니다. 한도는 등록한 제공사마다 다릅니다",
+          "terms_zh": "中转本身免费，限制取决于你添加的各个服务商"
         }
       ]
     },
@@ -170,7 +186,8 @@
           "baseUrl": "https://api.cerebras.ai/v1",
           "keyUrl": "https://cloud.cerebras.ai/platform",
           "docs": "https://inference-docs.cerebras.ai/resources/openai",
-          "terms_ko": "결제수단을 등록하면 5달러 크레딧을 30일 동안 줍니다. 상시 무료 등급은 없습니다"
+          "terms_ko": "결제수단을 등록하면 5달러 크레딧을 30일 동안 줍니다. 상시 무료 등급은 없습니다",
+          "terms_zh": "添加付款方式后获得 30 天内有效的 5 美元额度。没有长期免费层"
         },
         {
           "id": "fireworks",
@@ -180,7 +197,8 @@
           "baseUrl": "https://api.fireworks.ai/inference/v1",
           "keyUrl": "https://app.fireworks.ai/settings/users/api-keys",
           "docs": "https://docs.fireworks.ai/tools-sdks/openai-compatibility",
-          "terms_ko": "가입하면 1달러 크레딧을 줍니다"
+          "terms_ko": "가입하면 1달러 크레딧을 줍니다",
+          "terms_zh": "注册送 1 美元额度"
         },
         {
           "id": "nebius",
@@ -190,7 +208,8 @@
           "baseUrl": "https://api.tokenfactory.nebius.com/v1",
           "keyUrl": "https://tokenfactory.nebius.com/project/api-keys",
           "docs": "https://docs.tokenfactory.nebius.com/",
-          "terms_ko": "가입하고 카드를 등록하면 1달러 크레딧을 30일 동안 줍니다"
+          "terms_ko": "가입하고 카드를 등록하면 1달러 크레딧을 30일 동안 줍니다",
+          "terms_zh": "注册并绑定银行卡后获得 30 天内有效的 1 美元额度"
         },
         {
           "id": "novita",
@@ -200,7 +219,8 @@
           "baseUrl": "https://api.novita.ai/openai",
           "keyUrl": "https://novita.ai/settings/key-management",
           "docs": "https://docs.novita.ai/guides/llm-api",
-          "terms_ko": "가입하면 크레딧을 줍니다"
+          "terms_ko": "가입하면 크레딧을 줍니다",
+          "terms_zh": "注册送额度"
         },
         {
           "id": "upstage",
@@ -210,7 +230,8 @@
           "baseUrl": "https://api.upstage.ai/v1",
           "keyUrl": "https://console.upstage.ai/api-keys",
           "docs": "https://console.upstage.ai/docs",
-          "terms_ko": "새로 가입하면 크레딧을 줍니다"
+          "terms_ko": "새로 가입하면 크레딧을 줍니다",
+          "terms_zh": "注册送额度"
         },
         {
           "id": "dashscope-intl",
@@ -220,7 +241,8 @@
           "baseUrl": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
           "keyUrl": "https://modelstudio.console.alibabacloud.com/ap-southeast-1/settings/api-key",
           "docs": "https://www.alibabacloud.com/help/en/model-studio/",
-          "terms_ko": "새로 가입하면 토큰을 줍니다"
+          "terms_ko": "새로 가입하면 토큰을 줍니다",
+          "terms_zh": "注册送 Token"
         }
       ]
     },
@@ -234,7 +256,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:11434/v1",
           "docs": "https://docs.ollama.com/api/openai-compatibility",
-          "terms_ko": "무료, 내 PC에서 실행"
+          "terms_ko": "무료, 내 PC에서 실행",
+          "terms_zh": "免费，在你的电脑上运行"
         },
         {
           "id": "lm-studio",
@@ -243,7 +266,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:1234/v1",
           "docs": "https://lmstudio.ai/docs/developer/api-changelog",
-          "terms_ko": "무료, 내 PC에서 실행"
+          "terms_ko": "무료, 내 PC에서 실행",
+          "terms_zh": "免费，在你的电脑上运行"
         },
         {
           "id": "llama-cpp",
@@ -252,7 +276,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:8080/v1",
           "docs": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md",
-          "terms_ko": "무료, 내 PC에서 실행"
+          "terms_ko": "무료, 내 PC에서 실행",
+          "terms_zh": "免费，在你的电脑上运行"
         },
         {
           "id": "jan",
@@ -261,7 +286,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:1337/v1",
           "docs": "https://www.jan.ai/docs/desktop/api-preference",
-          "terms_ko": "무료, 내 PC에서 실행"
+          "terms_ko": "무료, 내 PC에서 실행",
+          "terms_zh": "免费，在你的电脑上运行"
         },
         {
           "id": "foundry-local",
@@ -270,7 +296,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:5272/v1",
           "docs": "https://learn.microsoft.com/en-us/azure/foundry-local/reference/reference-cli",
-          "terms_ko": "무료, 내 PC에서 실행"
+          "terms_ko": "무료, 내 PC에서 실행",
+          "terms_zh": "免费，在你的电脑上运行"
         },
         {
           "id": "docker-model-runner",
@@ -279,7 +306,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:12434/engines/v1",
           "docs": "https://docs.docker.com/ai/model-runner/api-reference/",
-          "terms_ko": "무료, 내 PC에서 실행"
+          "terms_ko": "무료, 내 PC에서 실행",
+          "terms_zh": "免费，在你的电脑上运行"
         },
         {
           "id": "vllm",
@@ -288,7 +316,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:8000/v1",
           "docs": "https://docs.vllm.ai/en/latest/serving/online_serving/",
-          "terms_ko": "무료, 직접 띄운 서버"
+          "terms_ko": "무료, 직접 띄운 서버",
+          "terms_zh": "免费，运行在你自己的服务器上"
         },
         {
           "id": "sglang",
@@ -297,7 +326,8 @@
           "dataUse": "no-training",
           "baseUrl": "http://127.0.0.1:30000/v1",
           "docs": "https://docs.sglang.ai/",
-          "terms_ko": "무료, 직접 띄운 서버"
+          "terms_ko": "무료, 직접 띄운 서버",
+          "terms_zh": "免费，运行在你自己的服务器上"
         }
       ]
     }

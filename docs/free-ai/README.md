@@ -4,7 +4,7 @@
 
 <p align="center"><sub>마지막 확인: 2026-10-05 (각 회사 공식 문서 기준)</sub></p>
 
-<p align="center"><a href="README.md">한국어</a> · <a href="README.en.md">English</a></p>
+<p align="center"><a href="README.md">한국어</a> · <a href="README.en.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
 ---
 
@@ -108,7 +108,7 @@ curl https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_K
 | **SGLang** | 무료, 직접 띄운 서버 | `http://127.0.0.1:30000/v1` | [문서](https://docs.sglang.ai/) |
 
 ## 여럿을 한 팀으로 쓰기
-이 목록의 AI를 여럿 연결해 두면, [MoaEditor](../../README.md)가 총괄, 팀장, 직원, 인턴으로 팀을 짜서 일을 나눠 맡깁니다. 한 곳이 한도에 닿으면 다음 AI가 이어서 합니다. [무료 AI 한 번에 연결]을 누르면 Copilot, Cursor, Groq, OpenRouter, 내 PC 모델을 차례로 연결합니다. Windows용이고 무료로 쓸 수 있습니다.
+이 목록의 AI를 여럿 연결해 두면, [MoaEditor](../../README.ko.md)가 총괄, 팀장, 직원, 인턴으로 팀을 짜서 일을 나눠 맡깁니다. 한 곳이 한도에 닿으면 다음 AI가 이어서 합니다. [무료 AI 한 번에 연결]을 누르면 Copilot, Cursor, Groq, OpenRouter, 내 PC 모델을 차례로 연결합니다. Windows용이고 무료로 쓸 수 있습니다.
 
 ## 고칠 곳이 있으면
 조건이 바뀌었거나 빠진 곳이 있으면 [이슈](https://github.com/moaeditor/moaeditor/issues/new/choose)로 알려 주세요. 공식 문서 주소를 함께 적어 주시면 확인한 뒤 고칩니다. 자세한 방법은 [CONTRIBUTING.md](CONTRIBUTING.md)에 있습니다.
