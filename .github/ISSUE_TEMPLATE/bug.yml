@@ -1,0 +1,27 @@
+name: 버그 알리기 (Bug report)
+description: 잘 안 되는 것을 알려 주세요
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 버전 (Version)
+      description: 도움말 → 정보에서 볼 수 있습니다
+      placeholder: 0.1.9
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 무엇이 잘못됐나요? (What happened?)
+      description: 한 일, 기대한 결과, 실제로 나온 결과를 적어 주세요. 화면을 찍어 붙이면 더 좋습니다
+    validations:
+      required: true
+  - type: input
+    id: ais
+    attributes:
+      label: 연결한 AI (Connected AIs)
+      placeholder: 예) Claude Code, Groq, Ollama
+  - type: markdown
+    attributes:
+      value: API 키, 로그인 토큰, 회사 코드 같은 비밀은 올리지 마세요. Please don't paste API keys or tokens.

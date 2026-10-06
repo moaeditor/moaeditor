@@ -1,0 +1,11 @@
+name: 의견과 아이디어 (Idea)
+description: 있으면 좋겠는 것을 알려 주세요
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 무엇이 있으면 좋겠나요? (What would help?)
+      description: 어떤 일을 할 때 필요한지 함께 적어 주세요
+    validations:
+      required: true
