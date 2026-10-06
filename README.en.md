@@ -55,6 +55,7 @@
 - When an AI runs out of quota or gets stuck, another connected AI picks up and you get a one-line note in Home.
 - The director picks who takes over by looking at how often each model succeeded and how long it took over the last 7 days.
 - You get a heads-up at about 80% usage.
+- What to do when Claude Code hits its limit is in [this guide](https://moaeditor.dev/en/guides/claude-code-limit/).
 
 ## Save quota
 
@@ -98,7 +99,7 @@
 ## Install
 
 1. Get the installer from the [download page](https://moaeditor.dev/en/download/). It installs into your user folder without admin rights.
-2. The installer isn’t code-signed yet, so Microsoft Defender SmartScreen may warn you. Click **More info**, then **Run anyway**. Signing is in progress.
+2. The installer isn’t code-signed yet, so Microsoft Defender SmartScreen may warn you. Click **More info**, then **Run anyway**. Signing is in progress. There’s a picture guide on the [download page](https://moaeditor.dev/en/download/).
 3. To check the file, compare its hash in PowerShell:
 
 ```powershell
