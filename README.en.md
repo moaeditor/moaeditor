@@ -58,9 +58,14 @@
 
 ## Save quota
 
-- Expensive AIs only plan and review; cheaper models do the bulk of the coding and local models handle simple jobs.
+**Spend up to 85% less on expensive models.**
+
+- Expensive AIs only plan and review; cheaper models or free APIs do the bulk of the coding and local models handle simple jobs.
+- Small calls like who takes a task or whether a reported fix was really made are handled by the helper AI, so they use none of the expensive model’s quota.
 - Set a seat to “Auto” and it picks a cheaper model that can still do the job.
 - Set thinking level per person, or leave it on auto to go higher for hard work and lower for simple work.
+
+<sub>The 85% is a worked example: planning and review taken as 15% of the work, coding on free APIs and simple jobs on a local model, compared with doing everything on Claude Opus 5.5 at [Anthropic’s official prices](https://platform.claude.com/docs/en/about-claude/pricing) as of October 6, 2026. Actual savings depend on the task and the AIs you connect, and total tokens can go up because several AIs work together. In the [RouteLLM](https://github.com/lm-sys/RouteLLM) study of a similar approach, sending easier questions to a cheaper model cut costs by up to 85% while keeping 95% of GPT-4’s performance on MT Bench.</sub>
 
 ## A helper AI double-checks
 
