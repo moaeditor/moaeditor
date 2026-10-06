@@ -19,7 +19,7 @@
 
 ### AI 组织架构
 
-![Claude Opus 当总负责人，Codex 当组长，Claude Sonnet 和 Cursor 当员工，本地模型当实习生](assets/team-en.png)
+![Claude Opus 当总负责人，下面有两个组长：后端 Codex 和前端 Claude Sonnet，每组各有一名员工和一名本地模型实习生](assets/team-en.png)
 
 - 总负责人做计划和审查，组长拆分任务，员工写代码，实习生用本地模型做简单的活。
 - 名字、团队、职级和角色在表格里修改。

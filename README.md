@@ -19,7 +19,7 @@
 
 ### AI org chart
 
-![Claude Opus as director, Codex as team lead, Claude Sonnet and Cursor as staff, a local model as intern](assets/team-en.png)
+![Claude Opus as director over two team leads, Codex for backend and Claude Sonnet for frontend, each with a staff member and a local-model intern](assets/team-en.png)
 
 - The director plans and reviews, team leads split the work, staff write the code, and interns run simple jobs on a local model.
 - Names, teams, ranks and roles are edited in a table.

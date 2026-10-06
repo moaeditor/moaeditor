@@ -19,7 +19,7 @@
 
 ### AI 조직도
 
-![총괄 Claude Opus, 팀장 Codex, 직원 Claude Sonnet과 Cursor, 인턴 내 PC 모델](assets/team.png)
+![총괄 Claude Opus 아래 백엔드 팀장 Codex와 화면 팀장 Claude Sonnet, 팀마다 직원과 내 PC 모델 인턴](assets/team.png)
 
 - 총괄은 계획과 검토, 팀장은 일 나누기, 직원은 구현, 인턴은 내 PC 모델로 단순한 일을 맡습니다.
 - 이름, 팀, 직급, 역할은 표에서 바꿉니다.
