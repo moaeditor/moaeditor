@@ -102,7 +102,7 @@
 
 Get it from the [download page](https://moaeditor.dev/en/download/) and run it. It installs on Windows 10 and 11 without admin rights. Free for individuals, students, schools, nonprofits and companies with fewer than 50 employees.
 
-<sub>Code signing is in progress, so Windows may show a warning. How to get past it and the SHA-256 are on the download page.</sub>
+<sub>Code signing is in progress, so Windows may show a warning.</sub>
 
 ## Privacy and keys
 
