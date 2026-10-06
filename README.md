@@ -2,119 +2,97 @@
 
 <h1 align="center">MoaEditor</h1>
 
-<p align="center"><b>All your AIs, one team.</b><br>A code editor that organizes your AIs into a director, team leads, staff and interns and splits the work between them</p>
+<p align="center">A code editor that puts your AIs in an org chart (director, team leads, staff, interns) and splits the work between them</p>
 
 <p align="center">
-  <a href="https://moaeditor.dev/en/"><b>Website</b></a> ·
-  <a href="https://moaeditor.dev/en/download/"><b>Download</b></a> ·
-  <a href="docs/free-ai/README.en.md"><b>30 free AIs</b></a> ·
-  <a href="https://github.com/moaeditor/moaeditor/issues/new/choose"><b>Bugs and ideas</b></a>
+  <a href="https://moaeditor.dev/en/">Website</a> ·
+  <a href="https://moaeditor.dev/en/download/">Download</a> ·
+  <a href="docs/free-ai/README.en.md">30 free AIs</a> ·
+  <a href="https://github.com/moaeditor/moaeditor/issues/new/choose">Bugs and ideas</a>
 </p>
-
-<p align="center"><sub>Windows 10 and 11 · Latest 0.1.9 · App UI in English and Korean</sub></p>
 
 <p align="center"><b>English</b> · <a href="README.ko.md">한국어</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
-![MoaEditor: the AI team on the left, code the AI changed in the middle, and the team lead’s and director’s reports in Home on the right](https://moaeditor.dev/shots/hero.webp)
+![MoaEditor: AI team on the left, code in the middle, Home on the right](https://moaeditor.dev/shots/hero.webp)
 
-## Contents
+## Features
 
-- [Organize AIs like a company](#organize-ais-like-a-company)
-- [Describe the project and AI builds the team](#describe-the-project-and-ai-builds-the-team)
-- [Direct and approve](#direct-and-approve)
-- [Work keeps going at the limit](#work-keeps-going-at-the-limit)
-- [Save quota](#save-quota)
-- [A helper AI double-checks](#a-helper-ai-double-checks)
-- [Connect every AI you have](#connect-every-ai-you-have)
-- [No subscription? Free AIs](#no-subscription-free-ais)
-- [Companies, schools and public sector](#companies-schools-and-public-sector)
-- [Install](#install)
+### AI org chart
 
-## Organize AIs like a company
+![Claude Opus as director, Codex as team lead, Claude Sonnet and Cursor as staff, a local model as intern](assets/team-en.png)
 
-![A team drafted by AI: Claude Opus as director, Codex as team lead, Claude Sonnet and Cursor as staff, a local model as intern](assets/team-en.png)
+- The director plans and reviews, team leads split the work, staff write the code, and interns run simple jobs on a local model.
+- Names, teams, ranks and roles are edited in a table.
+- Blocked work moves up: a hint, another AI, the manager, then one level up.
+- Describe the project in one line and an AI picks a model for each seat and writes AGENTS.md, CLAUDE.md and .gitignore.
 
-- The **director** plans and reviews, **team leads** split the work, **staff** build it, and **interns** handle simple jobs on a local model.
-- Set names, teams, ranks and roles. Talk to a whole team in its room or to one person in a 1:1.
-- Blocked work goes up in order: a hint, another AI, the manager doing it directly, then one level up.
+### Tasks and approval
 
-## Describe the project and AI builds the team
+![Task, the director’s plan, and the report](assets/flow-en.png)
 
-- Write one line in “What are you building?” and the best AI you’ve connected seats the right model in each role.
-- It also writes project guide files like AGENTS.md, CLAUDE.md and .gitignore.
-- Edit anything right in the table.
+- Write a task in Home and the director shows a plan. Approve and Run hands it all off; Approve Each Step goes one step at a time.
+- Permission modes: Plan only, Ask for everything, Ask only for important things, Auto.
+- At the end you see the changed files and time taken. Revert a file, revert the whole run, or commit.
 
-## Direct and approve
+### Limits and usage
 
-![Your task, the director’s plan with Approve and Run, and the report with changed files and time taken](assets/flow-en.png)
+- When an AI hits its limit or gets stuck, another connected AI takes over, chosen from each model’s last 7 days of results.
+- A notice shows at about 80% usage.
+- Expensive models only plan and review; cheaper models or free APIs write the code and local models do simple jobs. By our calculation that cuts the expensive-model bill by up to 85%.<sup>1</sup>
+- Model and thinking level can be set per seat or left on auto.
+- [What to do when Claude Code hits its limit](https://moaeditor.dev/en/guides/claude-code-limit/)
 
-- Write a task in Home and the director shows a plan. Hand it all off with **Approve and Run** or check each step with **Approve Each Step**.
-- Pick how much it asks: Plan only, Ask for everything, Ask only for important things, or Auto.
-- When it’s done you get the changed files and time taken. Review the diff, roll back a single file or the whole run, or commit as is.
+### Helper AI
 
-## Work keeps going at the limit
+- A separate small model checks claimed fixes that weren’t made, risky commands, and small calls like who gets a task.
+- It runs on your PC with an NVIDIA GPU with 8 GB or more; otherwise it uses the one MoaEditor provides (2,000 checks a day when signed in) or your Cloudflare token. It can be turned off.
 
-- When an AI runs out of quota or gets stuck, another connected AI picks up and you get a one-line note in Home.
-- The director picks who takes over by looking at how often each model succeeded and how long it took over the last 7 days.
-- You get a heads-up at about 80% usage.
-- What to do when Claude Code hits its limit is in [this guide](https://moaeditor.dev/en/guides/claude-code-limit/).
+### Connections
 
-## Save quota
+![Subscriptions, free APIs and local models](assets/connect-en.png)
 
-**Spend up to 85% less on expensive models.**
+- 13 subscription tools: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Kimi Code, Qwen Code, goose, Augment, Mistral Vibe, Factory Droid, Cline
+- API keys: OpenAI, Anthropic, Google Gemini, Groq, OpenRouter, company clouds, Korean models and more
+- Local models: Ollama, LM Studio, llama.cpp, Jan, Foundry Local, Docker Model Runner, vLLM, SGLang
+- Connect all installs, signs in and checks the AIs on your PC one by one.
 
-- Expensive AIs only plan and review; cheaper models or free APIs do the bulk of the coding and local models handle simple jobs.
-- Small calls like who takes a task or whether a reported fix was really made are handled by the helper AI, so they use none of the expensive model’s quota.
-- Set a seat to “Auto” and it picks a cheaper model that can still do the job.
-- Set thinking level per person, or leave it on auto to go higher for hard work and lower for simple work.
-
-<sub>The 85% is a worked example: planning and review taken as 15% of the work, coding on free APIs and simple jobs on a local model, compared with doing everything on Claude Opus 5.5 at [Anthropic’s official prices](https://platform.claude.com/docs/en/about-claude/pricing) as of October 6, 2026. Actual savings depend on the task and the AIs you connect, and total tokens can go up because several AIs work together. In the [RouteLLM](https://github.com/lm-sys/RouteLLM) study of a similar approach, sending easier questions to a cheaper model cut costs by up to 85% while keeping 95% of GPT-4’s performance on MT Bench.</sub>
-
-## A helper AI double-checks
-
-- It catches reports that claim a fix that wasn’t made, and commands that look dangerous.
-- With an NVIDIA GPU with 8 GB or more, it runs on your PC and sends nothing out. Otherwise use the one MoaEditor provides (2,000 checks a day when signed in) or your own Cloudflare token. You can turn it off.
-
-## Connect every AI you have
-
-![Subscriptions, free APIs and local models connecting into MoaEditor](assets/connect-en.png)
-
-- **13 subscription tools:** Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Kimi Code, Qwen Code, goose, Augment, Mistral Vibe, Factory Droid, Cline. Each signs in through the vendor’s official program; MoaEditor never reads their login files.
-- **API keys:** AI labs like OpenAI, Anthropic and Google Gemini, inference services like Groq and OpenRouter, company clouds and Korean models. Keys stay in this PC’s secure storage.
-- **Local models:** Ollama, LM Studio, llama.cpp, Jan, Foundry Local, Docker Model Runner, vLLM, SGLang. No internet, no quota.
-- **Connect all:** installs, signs in and actually checks this PC’s AIs one after another.
-
-## No subscription? Free AIs
+### Free AIs
 
 ![Connect free AIs and the 30 free options](assets/free-en.png)
 
-**Connect free AIs** sets up GitHub Copilot’s and Cursor’s free plans, free Groq and OpenRouter keys, and a local model that fits your PC. All 30 free options are in the [free AI list](docs/free-ai/README.en.md). Free tiers are used with your own account within each provider’s limits and terms.
+- Connect free AIs sets up the free plans of Copilot and Cursor, free Groq and OpenRouter keys, and a local model.
+- All 30 free options are in [the list](docs/free-ai/README.en.md).
 
-## Companies, schools and public sector
+### Companies, schools, public sector
 
-- **Company plan subscriptions:** connect Claude, ChatGPT (Codex), Copilot and Gemini Team, Business and Enterprise accounts through their official CLIs.
-- **Company cloud APIs and in-house GPU servers:** with an in-house server, code never leaves your network.
-- **Offline networks:** one signed license file turns on business features. No sign-in; only in-house GPU servers and local models.
-- **Classrooms:** students see how AI splits work, reviews it and escalates when stuck.
+- Company plan subscriptions (Team, Business, Enterprise), company cloud APIs and in-house GPU servers.
+- On offline networks, a license file replaces sign-in.
 - Contact: [Business, schools and public sector](https://moaeditor.dev/en/enterprise/), admin@moaeditor.dev
 
 ## Install
 
-Get it from the [download page](https://moaeditor.dev/en/download/) and run it. It installs on Windows 10 and 11 without admin rights. Free for individuals, students, schools, nonprofits and companies with fewer than 50 employees.
+Get it from the [download page](https://moaeditor.dev/en/download/). Windows 10 and 11. The app UI is in English and Korean.
 
-<sub>Code signing is in progress, so Windows may show a warning.</sub>
+The installer isn’t code-signed yet, so Windows may show a warning.
 
-## Privacy and keys
+## Pricing
 
-- API keys live in your OS secure storage. Code and instructions go straight from your PC to the AI vendor you chose, never through MoaEditor’s servers.
-- Details: [Privacy Policy](https://moaeditor.dev/en/legal/privacy/), [Terms](https://moaeditor.dev/en/legal/terms/)
+Free for individuals, students, schools, nonprofits and companies with fewer than 50 employees. You pay each AI provider as usual. [Pricing](https://moaeditor.dev/en/pricing/)
+
+## Privacy
+
+API keys are kept in your PC’s secure storage, and code and instructions go straight to the AI provider you picked. [Privacy Policy](https://moaeditor.dev/en/legal/privacy/), [Terms](https://moaeditor.dev/en/legal/terms/)
 
 ## Bugs and ideas
 
-Open an [issue](https://github.com/moaeditor/moaeditor/issues/new/choose). Report security problems to admin@moaeditor.dev instead of a public issue.
+Open an [issue](https://github.com/moaeditor/moaeditor/issues/new/choose). Send security issues to admin@moaeditor.dev.
 
 ## About this repository
 
-This repository holds MoaEditor’s overview, release notes, and bug reports and ideas. The app’s source code isn’t published here. MoaEditor is built on Code - OSS (MIT), the open-source base of Microsoft Visual Studio Code, and isn’t affiliated with Microsoft.
+This repository is for the overview and issues; the source code isn’t here. MoaEditor is built on Code - OSS (MIT) and isn’t affiliated with Microsoft.
+
+---
+
+<sub>1. Planning and review taken as 15% of the work, compared with doing everything on Claude Opus 5.5 at [Anthropic’s official prices](https://platform.claude.com/docs/en/about-claude/pricing) (2026-10-06). Real results vary by task, and total tokens can go up because several AIs work together. [RouteLLM](https://github.com/lm-sys/RouteLLM), a study of a similar approach, cut costs by up to 85% while keeping 95% of GPT-4’s performance on MT Bench.</sub>
 
 © 2026 Horizon Co., Ltd.
