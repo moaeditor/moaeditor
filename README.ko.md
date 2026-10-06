@@ -100,19 +100,9 @@
 
 ## 설치
 
-1. [다운로드 페이지](https://moaeditor.dev/download/)에서 설치 파일을 받습니다. 관리자 권한 없이 내 사용자 폴더에 설치됩니다.
-2. 아직 코드 서명을 적용하기 전이라 Microsoft Defender SmartScreen이 경고를 띄울 수 있습니다. <b>[추가 정보]</b>를 누른 뒤 <b>[실행]</b>을 누르면 설치가 계속됩니다. 서명은 준비 중입니다. 그림 안내는 [다운로드 페이지](https://moaeditor.dev/download/)에 있습니다.
-3. 받은 파일이 맞는지 확인하려면 PowerShell에서 아래 값과 비교하세요.
+[다운로드 페이지](https://moaeditor.dev/download/)에서 받아 실행하면 됩니다. Windows 10, 11에서 관리자 권한 없이 설치됩니다. 개인, 학생, 교육 기관과 비영리 기관, 직원 50명 미만 회사는 무료로 쓸 수 있습니다.
 
-```powershell
-Get-FileHash .\MoaEditorUserSetup-x64-0.1.9.exe -Algorithm SHA256
-```
-
-| 버전 | 파일 | SHA-256 |
-|---|---|---|
-| 0.1.9 | MoaEditorUserSetup-x64-0.1.9.exe | `4360b59c529e298a7446818554790adec1eba5812a16bc2077a94b1a6a651796` |
-
-화면은 에디터의 표시 언어를 따라 한국어나 영어로 나옵니다. 개인, 학생, 교육 기관과 비영리 기관, 직원 50명 미만 회사는 무료로 쓸 수 있습니다.
+<sub>설치 파일 서명은 준비 중이라 Windows가 경고를 띄울 수 있습니다. 넘기는 법과 SHA-256 값은 다운로드 페이지에 있습니다.</sub>
 
 ## 개인정보와 키
 

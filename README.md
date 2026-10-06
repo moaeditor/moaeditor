@@ -100,19 +100,9 @@
 
 ## Install
 
-1. Get the installer from the [download page](https://moaeditor.dev/en/download/). It installs into your user folder without admin rights.
-2. The installer isn’t code-signed yet, so Microsoft Defender SmartScreen may warn you. Click **More info**, then **Run anyway**. Signing is in progress. There’s a picture guide on the [download page](https://moaeditor.dev/en/download/).
-3. To check the file, compare its hash in PowerShell:
+Get it from the [download page](https://moaeditor.dev/en/download/) and run it. It installs on Windows 10 and 11 without admin rights. Free for individuals, students, schools, nonprofits and companies with fewer than 50 employees.
 
-```powershell
-Get-FileHash .\MoaEditorUserSetup-x64-0.1.9.exe -Algorithm SHA256
-```
-
-| Version | File | SHA-256 |
-|---|---|---|
-| 0.1.9 | MoaEditorUserSetup-x64-0.1.9.exe | `4360b59c529e298a7446818554790adec1eba5812a16bc2077a94b1a6a651796` |
-
-The interface follows the editor’s display language (Korean or English). Free for individuals, students, schools, nonprofits and companies with fewer than 50 employees.
+<sub>Code signing is in progress, so Windows may show a warning. How to get past it and the SHA-256 are on the download page.</sub>
 
 ## Privacy and keys
 

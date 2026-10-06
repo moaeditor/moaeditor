@@ -99,19 +99,9 @@
 
 ## 安装
 
-1. 从 [下载页面](https://moaeditor.dev/en/download/) 获取安装程序。它安装在你的用户文件夹里，不需要管理员权限。
-2. 安装程序还没有代码签名，Microsoft Defender SmartScreen 可能会提示警告。点击 **More info（更多信息）**，再点 **Run anyway（仍要运行）** 即可继续安装。签名正在准备中。下载页面有图示说明。
-3. 要核对文件，可在 PowerShell 中比较哈希值：
+从 [下载页面](https://moaeditor.dev/en/download/) 下载并运行即可。支持 Windows 10 和 11，不需要管理员权限。个人、学生、学校、非营利机构以及员工少于 50 人的公司可以免费使用。
 
-```powershell
-Get-FileHash .\MoaEditorUserSetup-x64-0.1.9.exe -Algorithm SHA256
-```
-
-| 版本 | 文件 | SHA-256 |
-|---|---|---|
-| 0.1.9 | MoaEditorUserSetup-x64-0.1.9.exe | `4360b59c529e298a7446818554790adec1eba5812a16bc2077a94b1a6a651796` |
-
-界面跟随编辑器的显示语言（英语或韩语）。个人、学生、学校、非营利机构以及员工少于 50 人的公司可以免费使用。
+<sub>安装程序的代码签名正在准备中，Windows 可能会提示警告。跳过警告的方法和 SHA-256 值见下载页面。</sub>
 
 ## 隐私与密钥
 
