@@ -1,8 +1,8 @@
 <h1 align="center">免费用于编程的 AI</h1>
 
-<p align="center">30 个可以免费用来写代码的 AI：有免费计划的编程工具、免费 API、注册赠送额度的 API，以及本地模型</p>
+<p align="center">31 个可以免费用来写代码的 AI：有免费计划的编程工具、免费 API、注册赠送额度的 API，以及本地模型</p>
 
-<p align="center"><sub>最后核对：2026-10-05（以各服务商官方文档为准）</sub></p>
+<p align="center"><sub>最后核对：2026-10-10（以各服务商官方文档为准）</sub></p>
 
 <p align="center"><a href="README.md">한국어</a> · <a href="README.en.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
@@ -15,7 +15,7 @@
 - [怎么用](#怎么用)
 - [马上试试](#马上试试)
 - [有免费计划的编程工具 (4)](#有免费计划的编程工具-4)
-- [长期免费的 API (12)](#长期免费的-api-12)
+- [长期免费的 API (13)](#长期免费的-api-13)
 - [注册赠送额度的 API (6)](#注册赠送额度的-api-6)
 - [本地模型，不限用量 (8)](#本地模型不限用量-8)
 - [把多个 AI 组成一个团队](#把多个-ai-组成一个团队)
@@ -30,7 +30,7 @@
 | 分组 | 数量 | 例子 |
 |---|---|---|
 | 有免费计划的编程工具 | 4 | GitHub Copilot, Cursor, Mistral Vibe, OpenCode |
-| 长期免费的 API | 12 | Google Gemini API, Groq, OpenRouter, NVIDIA NIM |
+| 长期免费的 API | 13 | Google Gemini API, Groq, OpenRouter, NVIDIA NIM |
 | 注册赠送额度的 API | 6 | Cerebras, Fireworks, Nebius, Novita |
 | 本地模型，不限用量 | 8 | Ollama, LM Studio, llama.cpp, Jan |
 
@@ -64,7 +64,7 @@ curl https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_K
 | **Mistral Vibe** | 使用 Mistral 账号，免费也能用 | [文档](https://docs.mistral.ai/vibe/code/cli/install-setup) |
 | **OpenCode** | 可用 ChatGPT 订阅、付费 Copilot、OpenCode Zen 或 Go，或 API 密钥。不登录时使用 OpenCode 免费模型，发送的内容可能被用于改进模型 | [文档](https://opencode.ai/docs) |
 
-## 长期免费的 API (12)
+## 长期免费的 API (13)
 
 | 服务 | 免费条件 | 输入用于训练 | Base URL | 密钥 | 文档 |
 |---|---|---|---|---|---|
@@ -79,13 +79,14 @@ curl https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_K
 | **Cohere** | 试用密钥：每月最多 1,000 次调用，每分钟 20 次 | 未核实 | `https://api.cohere.ai/compatibility/v1` | [获取密钥](https://dashboard.cohere.com/api-keys) | [文档](https://docs.cohere.com/docs/compatibility-api) |
 | **Ollama Cloud** | 免费计划有入门额度。仅限部分模型，一次只处理一个请求 | 未核实 | `https://ollama.com/v1` | [获取密钥](https://ollama.com/settings/keys) | [文档](https://docs.ollama.com/api/openai-compatibility) |
 | **Vercel AI Gateway** | 每个团队每月 5 美元额度，首次付款后结束 | 未核实 | `https://ai-gateway.vercel.sh/v1` | [获取密钥](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai-gateway%2Fapi-keys&title=AI+Gateway+API+Keys) | [文档](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions) |
+| **Cloudflare Workers AI** | Workers AI 模型每天有 10,000 个免费 Neurons 额度（因模型而异，超出后按量付费） | 不用于训练 | `https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1` | [获取密钥](https://dash.cloudflare.com/profile/api-tokens) | [文档](https://developers.cloudflare.com/ai-gateway/usage/rest-api/) |
 | **FreeLLMAPI** | 中转本身免费，限制取决于你添加的各个服务商 | 免费层可能用于训练 | `http://127.0.0.1:3001/v1` |  | [文档](https://github.com/tashfeenahmed/freellmapi) |
 
 ## 注册赠送额度的 API (6)
 
 | 服务 | 免费条件 | 输入用于训练 | Base URL | 密钥 | 文档 |
 |---|---|---|---|---|---|
-| **Cerebras** | 添加付款方式后获得 30 天内有效的 5 美元额度。没有长期免费层 | 未核实 | `https://api.cerebras.ai/v1` | [获取密钥](https://cloud.cerebras.ai/platform) | [文档](https://inference-docs.cerebras.ai/resources/openai) |
+| **Cerebras** | 没有长期免费层。添加付款方式后可获得 30 天内有效的 5 美元额度 | 未核实 | `https://api.cerebras.ai/v1` | [获取密钥](https://cloud.cerebras.ai/platform) | [文档](https://inference-docs.cerebras.ai/resources/openai) |
 | **Fireworks** | 注册送 1 美元额度 | 未核实 | `https://api.fireworks.ai/inference/v1` | [获取密钥](https://app.fireworks.ai/settings/users/api-keys) | [文档](https://docs.fireworks.ai/tools-sdks/openai-compatibility) |
 | **Nebius** | 注册并绑定银行卡后获得 30 天内有效的 1 美元额度 | 未核实 | `https://api.tokenfactory.nebius.com/v1` | [获取密钥](https://tokenfactory.nebius.com/project/api-keys) | [文档](https://docs.tokenfactory.nebius.com/) |
 | **Novita** | 注册送额度 | 未核实 | `https://api.novita.ai/openai` | [获取密钥](https://novita.ai/settings/key-management) | [文档](https://docs.novita.ai/guides/llm-api) |

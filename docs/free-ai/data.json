@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-05",
+  "checked": "2026-10-10",
   "source": "https://github.com/moaeditor/moaeditor/tree/main/docs/free-ai",
   "groups": [
     {
@@ -164,6 +164,17 @@
           "terms_zh": "每个团队每月 5 美元额度，首次付款后结束"
         },
         {
+          "id": "cloudflare-ai-gateway",
+          "name": "Cloudflare Workers AI",
+          "terms": "Workers AI models get 10,000 free Neurons a day (varies by model; pay per use beyond that)",
+          "dataUse": "no-training",
+          "baseUrl": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+          "keyUrl": "https://dash.cloudflare.com/profile/api-tokens",
+          "docs": "https://developers.cloudflare.com/ai-gateway/usage/rest-api/",
+          "terms_ko": "Workers AI 모델은 하루 뉴런 1만 개까지 무료 (모델마다 다름, 넘으면 쓴 만큼 결제)",
+          "terms_zh": "Workers AI 模型每天有 10,000 个免费 Neurons 额度（因模型而异，超出后按量付费）"
+        },
+        {
           "id": "freellmapi",
           "name": "FreeLLMAPI",
           "terms": "The relay is free. Limits depend on each provider you add",
@@ -181,13 +192,13 @@
         {
           "id": "cerebras",
           "name": "Cerebras",
-          "terms": "Add a payment method to get $5 in credits for 30 days. There is no ongoing free tier",
+          "terms": "There is no ongoing free tier. Add a payment method to get $5 in credits for 30 days",
           "dataUse": "unknown",
           "baseUrl": "https://api.cerebras.ai/v1",
           "keyUrl": "https://cloud.cerebras.ai/platform",
           "docs": "https://inference-docs.cerebras.ai/resources/openai",
-          "terms_ko": "결제수단을 등록하면 5달러 크레딧을 30일 동안 줍니다. 상시 무료 등급은 없습니다",
-          "terms_zh": "添加付款方式后获得 30 天内有效的 5 美元额度。没有长期免费层"
+          "terms_ko": "상시 무료 등급은 없습니다. 결제수단을 등록하면 5달러 크레딧을 30일 동안 줍니다",
+          "terms_zh": "没有长期免费层。添加付款方式后可获得 30 天内有效的 5 美元额度"
         },
         {
           "id": "fireworks",

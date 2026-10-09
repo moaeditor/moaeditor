@@ -1,8 +1,8 @@
 <h1 align="center">코딩에 무료로 쓰는 AI</h1>
 
-<p align="center">돈을 내지 않고 코딩에 쓸 수 있는 AI 30곳. 무료 요금제 코딩 도구, 무료 API, 가입 크레딧, 내 PC 모델까지</p>
+<p align="center">돈을 내지 않고 코딩에 쓸 수 있는 AI 31곳. 무료 요금제 코딩 도구, 무료 API, 가입 크레딧, 내 PC 모델까지</p>
 
-<p align="center"><sub>마지막 확인: 2026-10-05 (각 회사 공식 문서 기준)</sub></p>
+<p align="center"><sub>마지막 확인: 2026-10-10 (각 회사 공식 문서 기준)</sub></p>
 
 <p align="center"><a href="README.md">한국어</a> · <a href="README.en.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
@@ -15,7 +15,7 @@
 - [이렇게 쓰세요](#이렇게-쓰세요)
 - [바로 써 보기](#바로-써-보기)
 - [무료 요금제로 쓰는 코딩 도구 (4)](#무료-요금제로-쓰는-코딩-도구-4)
-- [계속 무료로 쓰는 API (12)](#계속-무료로-쓰는-api-12)
+- [계속 무료로 쓰는 API (13)](#계속-무료로-쓰는-api-13)
 - [가입하면 크레딧을 주는 API (6)](#가입하면-크레딧을-주는-api-6)
 - [내 PC 모델, 사용량 없음 (8)](#내-pc-모델-사용량-없음-8)
 - [여럿을 한 팀으로 쓰기](#여럿을-한-팀으로-쓰기)
@@ -30,7 +30,7 @@
 | 묶음 | 수 | 예 |
 |---|---|---|
 | 무료 요금제로 쓰는 코딩 도구 | 4 | GitHub Copilot, Cursor, Mistral Vibe, OpenCode |
-| 계속 무료로 쓰는 API | 12 | Google Gemini API, Groq, OpenRouter, NVIDIA NIM |
+| 계속 무료로 쓰는 API | 13 | Google Gemini API, Groq, OpenRouter, NVIDIA NIM |
 | 가입하면 크레딧을 주는 API | 6 | Cerebras, Fireworks, Nebius, Novita |
 | 내 PC 모델, 사용량 없음 | 8 | Ollama, LM Studio, llama.cpp, Jan |
 
@@ -64,7 +64,7 @@ curl https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_K
 | **Mistral Vibe** | Mistral 계정으로 씁니다. 무료로도 쓸 수 있습니다 | [문서](https://docs.mistral.ai/vibe/code/cli/install-setup) |
 | **OpenCode** | ChatGPT 구독, 유료 Copilot 구독, OpenCode Zen이나 Go, API 키로 씁니다. 로그인하지 않으면 OpenCode 무료 모델로 돌아가는데, 이때 보낸 내용은 모델 개선에 쓰일 수 있습니다 | [문서](https://opencode.ai/docs) |
 
-## 계속 무료로 쓰는 API (12)
+## 계속 무료로 쓰는 API (13)
 
 | 서비스 | 무료 조건 | 입력 학습 | Base URL | 키 | 문서 |
 |---|---|---|---|---|---|
@@ -79,13 +79,14 @@ curl https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_K
 | **Cohere** | Trial 키는 한 달 1,000회, 분당 20회까지 | 확인 못 함 | `https://api.cohere.ai/compatibility/v1` | [키 만들기](https://dashboard.cohere.com/api-keys) | [문서](https://docs.cohere.com/docs/compatibility-api) |
 | **Ollama Cloud** | 무료 플랜에 시작 크레딧이 있습니다. 일부 모델만, 한 번에 요청 하나씩 씁니다 | 확인 못 함 | `https://ollama.com/v1` | [키 만들기](https://ollama.com/settings/keys) | [문서](https://docs.ollama.com/api/openai-compatibility) |
 | **Vercel AI Gateway** | 팀마다 매달 5달러 크레딧. 한 번 결제하면 끝납니다 | 확인 못 함 | `https://ai-gateway.vercel.sh/v1` | [키 만들기](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai-gateway%2Fapi-keys&title=AI+Gateway+API+Keys) | [문서](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions) |
+| **Cloudflare Workers AI** | Workers AI 모델은 하루 뉴런 1만 개까지 무료 (모델마다 다름, 넘으면 쓴 만큼 결제) | 학습에 안 씀 | `https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1` | [키 만들기](https://dash.cloudflare.com/profile/api-tokens) | [문서](https://developers.cloudflare.com/ai-gateway/usage/rest-api/) |
 | **FreeLLMAPI** | 중계기는 무료입니다. 한도는 등록한 제공사마다 다릅니다 | 무료 등급은 학습에 쓰일 수 있음 | `http://127.0.0.1:3001/v1` |  | [문서](https://github.com/tashfeenahmed/freellmapi) |
 
 ## 가입하면 크레딧을 주는 API (6)
 
 | 서비스 | 무료 조건 | 입력 학습 | Base URL | 키 | 문서 |
 |---|---|---|---|---|---|
-| **Cerebras** | 결제수단을 등록하면 5달러 크레딧을 30일 동안 줍니다. 상시 무료 등급은 없습니다 | 확인 못 함 | `https://api.cerebras.ai/v1` | [키 만들기](https://cloud.cerebras.ai/platform) | [문서](https://inference-docs.cerebras.ai/resources/openai) |
+| **Cerebras** | 상시 무료 등급은 없습니다. 결제수단을 등록하면 5달러 크레딧을 30일 동안 줍니다 | 확인 못 함 | `https://api.cerebras.ai/v1` | [키 만들기](https://cloud.cerebras.ai/platform) | [문서](https://inference-docs.cerebras.ai/resources/openai) |
 | **Fireworks** | 가입하면 1달러 크레딧을 줍니다 | 확인 못 함 | `https://api.fireworks.ai/inference/v1` | [키 만들기](https://app.fireworks.ai/settings/users/api-keys) | [문서](https://docs.fireworks.ai/tools-sdks/openai-compatibility) |
 | **Nebius** | 가입하고 카드를 등록하면 1달러 크레딧을 30일 동안 줍니다 | 확인 못 함 | `https://api.tokenfactory.nebius.com/v1` | [키 만들기](https://tokenfactory.nebius.com/project/api-keys) | [문서](https://docs.tokenfactory.nebius.com/) |
 | **Novita** | 가입하면 크레딧을 줍니다 | 확인 못 함 | `https://api.novita.ai/openai` | [키 만들기](https://novita.ai/settings/key-management) | [문서](https://docs.novita.ai/guides/llm-api) |

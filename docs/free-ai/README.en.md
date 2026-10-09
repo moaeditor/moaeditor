@@ -1,8 +1,8 @@
 <h1 align="center">Free AI for coding</h1>
 
-<p align="center">30 AIs you can code with for free: coding tools with a free plan, free APIs, sign-up credit, and local models</p>
+<p align="center">31 AIs you can code with for free: coding tools with a free plan, free APIs, sign-up credit, and local models</p>
 
-<p align="center"><sub>Last checked: 2026-10-05 (against each provider’s official docs)</sub></p>
+<p align="center"><sub>Last checked: 2026-10-10 (against each provider’s official docs)</sub></p>
 
 <p align="center"><a href="README.md">한국어</a> · <a href="README.en.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
@@ -15,7 +15,7 @@
 - [How to use](#how-to-use)
 - [Try it](#try-it)
 - [Coding tools with a free plan (4)](#coding-tools-with-a-free-plan-4)
-- [APIs with an ongoing free tier (12)](#apis-with-an-ongoing-free-tier-12)
+- [APIs with an ongoing free tier (13)](#apis-with-an-ongoing-free-tier-13)
 - [APIs with sign-up credit (6)](#apis-with-sign-up-credit-6)
 - [Local models, no quota (8)](#local-models-no-quota-8)
 - [Use several as one team](#use-several-as-one-team)
@@ -30,7 +30,7 @@
 | Group | Count | Examples |
 |---|---|---|
 | Coding tools with a free plan | 4 | GitHub Copilot, Cursor, Mistral Vibe, OpenCode |
-| APIs with an ongoing free tier | 12 | Google Gemini API, Groq, OpenRouter, NVIDIA NIM |
+| APIs with an ongoing free tier | 13 | Google Gemini API, Groq, OpenRouter, NVIDIA NIM |
 | APIs with sign-up credit | 6 | Cerebras, Fireworks, Nebius, Novita |
 | Local models, no quota | 8 | Ollama, LM Studio, llama.cpp, Jan |
 
@@ -64,7 +64,7 @@ curl https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_K
 | **Mistral Vibe** | Works with a Mistral account, free too | [Docs](https://docs.mistral.ai/vibe/code/cli/install-setup) |
 | **OpenCode** | Works with ChatGPT, paid Copilot, OpenCode Zen or Go, or an API key. Without signing in it uses OpenCode free models, which may use what you send to improve the model | [Docs](https://opencode.ai/docs) |
 
-## APIs with an ongoing free tier (12)
+## APIs with an ongoing free tier (13)
 
 | Service | Free terms | Trains on input | Base URL | Key | Docs |
 |---|---|---|---|---|---|
@@ -79,13 +79,14 @@ curl https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_K
 | **Cohere** | Trial key: up to 1,000 calls a month and 20 a minute | Not checked | `https://api.cohere.ai/compatibility/v1` | [Get key](https://dashboard.cohere.com/api-keys) | [Docs](https://docs.cohere.com/docs/compatibility-api) |
 | **Ollama Cloud** | The free plan has starter credits. Some models only, one request at a time | Not checked | `https://ollama.com/v1` | [Get key](https://ollama.com/settings/keys) | [Docs](https://docs.ollama.com/api/openai-compatibility) |
 | **Vercel AI Gateway** | $5 in credits per team each month. Ends after your first payment | Not checked | `https://ai-gateway.vercel.sh/v1` | [Get key](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai-gateway%2Fapi-keys&title=AI+Gateway+API+Keys) | [Docs](https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions) |
+| **Cloudflare Workers AI** | Workers AI models get 10,000 free Neurons a day (varies by model; pay per use beyond that) | No | `https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1` | [Get key](https://dash.cloudflare.com/profile/api-tokens) | [Docs](https://developers.cloudflare.com/ai-gateway/usage/rest-api/) |
 | **FreeLLMAPI** | The relay is free. Limits depend on each provider you add | Free tier may be used for training | `http://127.0.0.1:3001/v1` |  | [Docs](https://github.com/tashfeenahmed/freellmapi) |
 
 ## APIs with sign-up credit (6)
 
 | Service | Free terms | Trains on input | Base URL | Key | Docs |
 |---|---|---|---|---|---|
-| **Cerebras** | Add a payment method to get $5 in credits for 30 days. There is no ongoing free tier | Not checked | `https://api.cerebras.ai/v1` | [Get key](https://cloud.cerebras.ai/platform) | [Docs](https://inference-docs.cerebras.ai/resources/openai) |
+| **Cerebras** | There is no ongoing free tier. Add a payment method to get $5 in credits for 30 days | Not checked | `https://api.cerebras.ai/v1` | [Get key](https://cloud.cerebras.ai/platform) | [Docs](https://inference-docs.cerebras.ai/resources/openai) |
 | **Fireworks** | $1 in credits when you sign up | Not checked | `https://api.fireworks.ai/inference/v1` | [Get key](https://app.fireworks.ai/settings/users/api-keys) | [Docs](https://docs.fireworks.ai/tools-sdks/openai-compatibility) |
 | **Nebius** | Sign up and add a card to get $1 in credits for 30 days | Not checked | `https://api.tokenfactory.nebius.com/v1` | [Get key](https://tokenfactory.nebius.com/project/api-keys) | [Docs](https://docs.tokenfactory.nebius.com/) |
 | **Novita** | Credits when you sign up | Not checked | `https://api.novita.ai/openai` | [Get key](https://novita.ai/settings/key-management) | [Docs](https://docs.novita.ai/guides/llm-api) |
